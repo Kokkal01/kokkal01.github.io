@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <h1>To Do List</h1>
+  </head>
+  <body>
+    <p>My list of things to do this semester.</p>
+    <ul>
+      <li id=even 1>Prof. Lee's Code due Friday</li>
+      <li id=odd 1>French Homework due Thursday</li>
+      <li id=even 1>Math Homework due Fridday</li>
+      <li id=odd 2>CS 130 Homework due Monday</li>
+      <li id=even 2>Senior Paper Rearch: 3 more books by Monday</li>
+      <li id=odd 2>Buy contacts</li>
+      <li id=even 3>Get Transcript from Community College</li>
+      <li id=odd 3>Write 2 Pages of Senior Paper by September 27</li>
+      <li id=even 3>Make French Verb Study Guide by September 27</li>
+      <li id=odd 3>Read Harry Potter in French by October 3</li>
+    </ul>
+  </body>
+</html>
