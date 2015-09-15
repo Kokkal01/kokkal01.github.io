@@ -1,0 +1,19 @@
+<html>
+  <style>
+  .even {
+    background-color:#ffffff;
+  }
+  .odd {
+    background-color:#dddddd
+  }
+  #1 {
+    color: red;
+  }
+  #2 {
+    color: orange;
+  }
+  #3 {
+    color: gray;
+  }
+  </style>
+</html>
