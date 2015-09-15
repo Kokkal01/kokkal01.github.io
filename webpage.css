@@ -4,16 +4,16 @@
     background-color:#ffffff;
   }
   .odd {
-    background-color:#dddddd
+    background-color:#99ccff;
   }
-  #1 {
-    color: red;
+  li#high {
+    color:#ff0000;
   }
-  #2 {
-    color: orange;
+  #medium {
+    color:#ff6600;
   }
-  #3 {
-    color: gray;
+  #low {
+    color:#dddddd;
   }
 </style>
 </html>
