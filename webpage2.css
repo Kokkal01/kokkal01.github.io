@@ -19,9 +19,7 @@ section.bgc2>li {
 section.bgc3>li {
   color:#000000;
 }
-section.bgc4 {
-  color:#00ffff;
-}
-section.bgc4 ul>li {
+section.bgc4>ul {
   text-decoration:line-through;
+  color:#00ffff;
 }
