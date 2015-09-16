@@ -1,22 +1,18 @@
-<html>
-<style>
-  .even {
-    background-color:#ffffff;
-  }
-  .odd {
-    background-color:#99ccff;
-  }
-  #high {
-    color:#ff0000;
-  }
-  #medium {
-    color:#ff6600;
-  }
-  #low {
-    color:#505050;
-  }
-  #done {
-    text-decoration:line-through;
-  }
-</style>
-</html>
+.even {
+  background-color:#ffffff;
+}
+.odd {
+  background-color:#99ccff;
+}
+#high {
+  color:#ff0000;
+}
+#medium {
+  color:#ff6600;
+}
+#low {
+  color:#505050;
+}
+#done {
+  text-decoration:line-through;
+}
