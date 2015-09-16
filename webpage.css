@@ -15,5 +15,8 @@
   #low {
     color:#505050;
   }
+  #done {
+    text-decoration:line-through;
+  }
 </style>
 </html>
