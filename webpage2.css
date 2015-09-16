@@ -21,9 +21,11 @@
   ul.bgc3>li {
     color:#000000;
   }
-  ul.bgc4>li {
-    text-decoration:line-through;
+  ul.bgc4 {
     color:#00ffff;
+  }
+  ul.bgc4 {
+    text-decoration:strike-through;
   }
 </style>
 </html>
