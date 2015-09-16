@@ -24,7 +24,7 @@
   ul.bgc4 {
     color:#00ffff;
   }
-  ul.bgc4 {
+  ul.bgc4>li {
     text-decoration:strike-through;
   }
 </style>
