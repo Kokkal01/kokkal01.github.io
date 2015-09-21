@@ -34,3 +34,7 @@ section {
   overflow: auto;
   float: left;
 }
+footer {
+  clear:both;
+}
+}
