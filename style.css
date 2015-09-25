@@ -18,11 +18,13 @@ img{
   width: 50%;
 }
 section#alpha {
+  position: relative;
   float: left;
   width: 50%;
   margin-left: 20px;
 }
 section#beta {
+  position: relative;
   width: 50%;
   margin-right: 20px;
 }
