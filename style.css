@@ -17,10 +17,14 @@ img{
   width: 50%;
   margin-left: 20px;
 }
-section {
+section#A {
   float: left;
   width: 50%;
   margin-left: 20px;
+}
+section#B {
+  width: 50%;
+  margin-right: 20px;
 }
 footer {
   clear: both;
