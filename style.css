@@ -26,10 +26,10 @@ img{
 section {
   z-index: -10;
   float: left;
-  background-color: blue;
 }
 section#alpha {
   width: 50%;
+  background-color: blue;
 }
 section#beta {
   width: 50%;
