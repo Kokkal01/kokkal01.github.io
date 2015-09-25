@@ -23,16 +23,16 @@ img{
   width: 50%;
   z-index: -10;
 }
-section {
+ol {
   z-index: -10;
 }
-section#alpha {
+ol#Omega {
   position: relative;
   float: left;
   width: 40%;
   margin-left: 20px;
 }
-section#beta {
+ol#Delta {
   position: relative;
   width: 40%;
   margin-right: 20px;
