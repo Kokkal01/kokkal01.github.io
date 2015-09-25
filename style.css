@@ -21,17 +21,17 @@ h1 {
 }
 img{
   width: 50%;
-  z-index: -1;
+  z-index: -2;
 }
 section#alpha {
   position: relative;
   float: left;
-  width: 50%;
+  width: 40%;
   margin-left: 20px;
 }
 section#beta {
   position: relative;
-  width: 50%;
+  width: 40%;
   margin-right: 20px;
 }
 footer {
