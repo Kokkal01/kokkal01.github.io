@@ -33,7 +33,7 @@ section#alpha {
 section#beta {
   width: 50%;
 }
-h2, p, ol {
+h2, p, ol, img {
   padding-left: 20px;
 }
 footer {
