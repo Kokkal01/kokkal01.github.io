@@ -1,7 +1,7 @@
 header {
   background-color: #808080;
   width: 100%;
-  height: 20px;
+  height: 40px;
   position: fixed;
 }
 nav {
@@ -11,17 +11,18 @@ nav {
   text-decoration: none;
 }
 body {
-   margin: 20px 20px 20px 60px;
+   margin: 20px;
+   margin-top: 60px;
 }
 img{
   width: 50%;
 }
-section#A {
+section#alpha {
   float: left;
   width: 50%;
   margin-left: 20px;
 }
-section#B {
+section#beta {
   width: 50%;
   margin-right: 20px;
 }
