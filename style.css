@@ -26,6 +26,7 @@ img{
 section {
   z-index: -10;
   float: left;
+  margin: 20px;
 }
 section#alpha {
   width: 50%;
