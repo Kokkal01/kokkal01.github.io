@@ -15,6 +15,10 @@ nav {
   color: black;
   text-decoration: none;
 }
+body {
+  background-color: blue;
+}
+}
 h1 {
    margin: 20px;
    margin-top: 60px;
@@ -25,16 +29,14 @@ img{
 }
 section {
   z-index: -10;
+  float: left;
 }
 section#alpha {
-  position: relative;
-  float: left;
-  width: 40%;
+  width: 50%;
   margin-left: 20px;
 }
 section#beta {
-  position: relative;
-  width: 40%;
+  width: 50%;
   margin-right: 20px;
 }
 footer {
