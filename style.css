@@ -19,6 +19,7 @@ h1 {
 }
 img{
   width: 50%;
+  z-index: -1;
 }
 section#alpha {
   position: relative;
