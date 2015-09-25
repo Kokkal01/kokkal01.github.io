@@ -23,6 +23,9 @@ img{
   width: 50%;
   z-index: -10;
 }
+section {
+  z-index: -10;
+}
 section#alpha {
   position: relative;
   float: left;
@@ -36,4 +39,5 @@ section#beta {
 }
 footer {
   clear: both;
+  z-index: -10;
 }
