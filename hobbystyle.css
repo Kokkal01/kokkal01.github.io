@@ -44,6 +44,9 @@ footer {
 ol {
   z-index: -10;
 }
+p#Last {
+  clear: both;
+}
 footer {
   clear: both;
   z-index: -10;
