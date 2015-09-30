@@ -27,9 +27,6 @@ h2 {
   color:#ffffff;
   text-align: center;
 }
-#TD3{
-  color:#000000;
-}
 section {
   border: 5px solid black;
   height: 200px;
@@ -39,5 +36,4 @@ section {
 }
 footer {
   clear:both;
-}
 }
