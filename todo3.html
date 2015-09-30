@@ -7,7 +7,7 @@
   <body>
     <section>
     <h2>High</h2>
-    <ul>
+    <ul input type="checkbox" name="group1" value="high">
       <li>A</li>
       <li>B</li>
       <li>C</li>
@@ -15,7 +15,7 @@
     </section>
     <section>
     <h2>Medium</h2>
-    <ul>
+    <ul input type="checkbox" name="group2" value="medium">
       <li>D</li>
       <li>E</li>
       <li>F</li>
@@ -29,7 +29,7 @@
     </section>
     <section>
     <h2>Low</h2>
-    <ul>
+    <ul input type="checkbox" name="group3" value="low">
       <li>G</li>
       <li>H</li>
       <li>I</li>
@@ -43,6 +43,12 @@
       <li>L</li>
     </ul>
     </section>
+    <script type="text/javascript">
+         changeThisPageFunc = function() {
+            var myList;
+            myList = document.querySelector('body');
+            // myList.innerHTML = "<h3>Where have all the flowers gone?<h3>";
+    </script>
     <footer>Alex's ToDo List #3</footer>
   </body>
 </html>
