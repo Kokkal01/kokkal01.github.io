@@ -1,6 +1,7 @@
 ex1 = function() {
   var Task;
   myInput = document.querySelector('#Task').value;
+  Task = document.querySelector('#Task').value;
   list = document.createElement("ol");
   item = document.createElement("li");
   ol = document.createTextNode();
