@@ -1,11 +1,11 @@
 body {
-  color: blue;
+  background-color: blue;
   width: 80%;
 }
 #nodot {
   list-style-type: none;
 }
 footer {
-  color: blue;
+  background-color: blue;
 }
 
