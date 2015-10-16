@@ -1,1 +1,8 @@
-hi
+body {
+  color: blue;
+  width: 80%;
+}
+#nodot {
+  list-style-type: none;
+}
+
