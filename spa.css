@@ -5,4 +5,7 @@ body {
 #nodot {
   list-style-type: none;
 }
+footer {
+  color: blue;
+}
 
