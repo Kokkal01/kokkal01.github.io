@@ -10,6 +10,8 @@ header {
   width: 100%;
   height: 40px;
   position: fixed;
+}
+head {
   margin: 0px;
   top: 0px;
   bottom: 0px;
