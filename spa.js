@@ -8,7 +8,7 @@ ex1 = function() {
   Task = document.createElement('todo');
   todo = document.createTextNode("ol");
   
-  todo.appendChild(ol);
-  todo.appendChild(li);
+  nodot.appendChild(li);
+  Task.appendChild(todo);
 
 }
