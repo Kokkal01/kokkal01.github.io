@@ -5,7 +5,7 @@ body {
 #nodot {
   list-style-type: none;
 }
-header {
+head {
   background-color: #808080;
   width: 100%;
   height: 40px;
@@ -28,7 +28,12 @@ footer {
   left: 0px;
   right: 0px;
 }
-
+h1 {
+  top: 0px;
+  bottom: 0px;
+  left: 20px;
+  right: 0px;
+}
 
 
 
