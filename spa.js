@@ -4,8 +4,7 @@ ex1 = function() {
   nodot = document.createElement("li");
   li = document.createTextNode(input);
   
-  myInput = document.querySelector('#Task').value;
-  input = document.querySelector("#box").value; //id in HTML
+  input = document.querySelector('#Task').value; //id in HTML
   
   p = document.querySelector("#priority"); //make new box
   
