@@ -2,13 +2,14 @@ ex1 = function() {
   var Task;
   myList = document.querySelector('#nodot').value;
   nodot = document.createElement("li");
-  li = document.createTextNode(text);
+  li = document.createTextNode(input);
   
   myInput = document.querySelector('#Task').value;
-  Task = document.createElement('todo');
-  todo = document.createTextNode("ol");
+  input = document.querySelector("#box").value; //id in HTML
   
-  nodot.appendChild(li);
-  Task.appendChild(todo);
+  p = document.querySelector("#priority"); //make new box
+  
+  myList.appendChild(nodot);
+  //myList.appendChild(todo);
 
 }
