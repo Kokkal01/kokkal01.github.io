@@ -4,7 +4,45 @@ body {
 #nodot {
   list-style-type: none;
 }
+header {
+  background-color: #808080;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  margin: 0px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+}
 footer {
-  background-color: ;
+  clear: both;
+  z-index: -10;
+  background-color: #808080;
+  width: 100%;
+  height: 20px;
+  margin: 0px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+
+
+
+
+#high {
+  color:#ff0000;
+}
+#medium {
+  color:#ff6600;
+}
+#low {
+  color:#505050;
+}
+#done {
+  text-decoration:line-through;
 }
 
