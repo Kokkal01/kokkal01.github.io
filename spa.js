@@ -1,5 +1,6 @@
 ex1 = function() {
   var Task;
+  myList = document.querySelector('#nodot').value;
   myInput = document.querySelector('#Task').value;
   Task = document.querySelector('#Task').value;
   list = document.createElement("ol");
