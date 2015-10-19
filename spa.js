@@ -1,13 +1,14 @@
 ex1 = function() {
   var Task;
   myList = document.querySelector('#nodot').value;
-  myInput = document.querySelector('#Task').value;
-  Task = document.querySelector('#Task').value;
-  list = document.createElement("ol");
-  item = document.createElement("li");
-  ol = document.createTextNode();
+  nodot = document.createElement("li");
   li = document.createTextNode(text);
-  list.appendChild(ol)
-  item.appendChild(li)
+  
+  myInput = document.querySelector('#Task').value;
+  Task = document.createElement('todo');
+  todo = document.createTextNode("ol");
+  
+  todo.appendChild(ol);
+  todo.appendChild(li);
 
 }
