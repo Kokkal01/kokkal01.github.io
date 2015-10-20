@@ -1,5 +1,5 @@
 ex1 = function() {
-  var Task;
+  var myList;
   myList = document.querySelector('#nodot').value;
   nodot = document.createElement("li");
   li = document.createTextNode("input");
