@@ -1,6 +1,6 @@
 ex1 = function() {
   var myList;
-  myList = document.querySelector('#nodot').value;
+  myList = document.querySelector('#nodot');
   nodot = document.createElement("li");
   li = document.createTextNode("input");
   
