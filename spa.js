@@ -2,7 +2,7 @@ ex1 = function() {
   var Task;
   myList = document.querySelector('#nodot').value;
   nodot = document.createElement("li");
-  li = document.createTextNode(input);
+  li = document.createTextNode("input");
   
   input = document.querySelector('#Task').value; //id in HTML
   
