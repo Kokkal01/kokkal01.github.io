@@ -5,6 +5,7 @@ ex1 = function() {
   li = document.createTextNode("input");
   
   input = document.querySelector('#Task').value; //id in HTML
+  input.innerHTML(li);
   
   p = document.querySelector("#priority"); //make new box
   
