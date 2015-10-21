@@ -46,19 +46,7 @@ h1 {
   right: 0px;
 }
 
-
-
-
-#high {
-  color:#ff0000;
-}
-#medium {
-  color:#ff6600;
-}
-#low {
-  color:#505050;
-}
-#done {
+.done {
   text-decoration:line-through;
 }
 
