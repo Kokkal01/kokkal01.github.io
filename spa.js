@@ -2,7 +2,7 @@ ex1 = function() {
   var myList;
   myBox = document.querySelector(“#textbox”);
   myPriority = document.querySelector(“#priority”);
-  myUl = document.querySelector(“#tasklist”);
+  myUl = document.querySelector(“#nodot”);
   myUl.appendChild(myLi);
   myLi = document.createElement(“li”);
   myLi.classList.add(myPriority.value);
