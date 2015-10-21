@@ -3,14 +3,18 @@ ex1 = function() {
   myBox = document.querySelector("#textbox");
   myPriority = document.querySelector("#priority");
   myUl = document.querySelector("#nodot");
-  myUl.appendChild(myLi);
+  
   myLi = document.createElement("li");
+  myInput = document.createElement("INPUT");
+  myText = document.createTextNode(myBox.value);
   myLi.classList.add(myPriority.value);
+  
+  myUl.appendChild(myLi);
   myLi.appendChild(myInput);
   myLi.appendChild(myText);
-  myInput = document.createElement("INPUT");
+  
   myInput.type = "checkbox";
-  myText = document.createTextNode(myBox.value);
+  
   
   /*
   myList = document.querySelector('#nodot');
