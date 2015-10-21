@@ -15,6 +15,14 @@ ex1 = function() {
   
   myInput.type = "checkbox";
   
+doneTask = function() {
+  if(this.checked) {
+    this.parentNode.classList.add("done")
+  }
+  else {
+    this.parentNode.classList.remove("done")
+  }
+}
   
   /*
   myList = document.querySelector('#nodot');
