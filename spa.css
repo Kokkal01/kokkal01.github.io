@@ -5,6 +5,15 @@ body {
 #nodot {
   list-style-type: none;
 }
+#high {
+  color:red;
+}
+#medium {
+  color:orange;
+}
+#low {
+  color:yellow;
+}
 header {
   background-color: #808080;
   width: 100%;
