@@ -12,7 +12,7 @@ ex1 = function() {
   myInput.type = “checkbox”;
   myText = document.createTextNode(myBox.value);
   
-  
+  /*
   myList = document.querySelector('#nodot');
   nodot = document.createElement("li");
   li = document.createTextNode("input");
@@ -24,5 +24,5 @@ ex1 = function() {
   
   myList.appendChild(nodot);
   //myList.appendChild(todo);
-
+  */
 }
