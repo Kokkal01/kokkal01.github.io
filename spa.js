@@ -1,15 +1,15 @@
 ex1 = function() {
   var myBox;
-  myBox = document.querySelector(“#textbox”);
-  myPriority = document.querySelector(“#priority”);
-  myUl = document.querySelector(“#nodot”);
+  myBox = document.querySelector("#textbox");
+  myPriority = document.querySelector("#priority");
+  myUl = document.querySelector("#nodot");
   myUl.appendChild(myLi);
-  myLi = document.createElement(“li”);
+  myLi = document.createElement("li");
   myLi.classList.add(myPriority.value);
   myLi.appendChild(myInput);
   myLi.appendChild(myText);
-  myInput = document.createElement(“INPUT”);
-  myInput.type = “checkbox”;
+  myInput = document.createElement("INPUT");
+  myInput.type = "checkbox";
   myText = document.createTextNode(myBox.value);
   
   /*
