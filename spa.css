@@ -14,13 +14,13 @@ body {
   list-style-type: none;
 }
 .High {
-  color:red;
+  color: #FF0000;
 }
 .Medium {
-  color:orange;
+  color: #FFF000;
 }
 .Low {
-  color:yellow;
+  color: #FFFF00;
 }
 head {
   background-color: #808080;
