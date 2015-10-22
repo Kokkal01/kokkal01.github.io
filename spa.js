@@ -17,6 +17,20 @@ ex1 = function() {
   myInput.onclick = doneTask;
 }
 
+localSave("nodot");
+restoreList(doneTask);
+    
+
+if(document.documentElement && document.documentElement.innerHTML){
+       var a=document.getElementById("tblive").innerHTML;
+       a=a.replace(/</g,'&lt;');
+       var w=window.open();
+       w.document.open();
+       w.document.write('<pre>&lt;tblive>\n'+a+'\n&lt;/tblive></pre>');
+       w.document.close();
+       }
+    }
+
 doneTask = function() {
   if(this.checked) {
     this.parentNode.classList.add("done")
@@ -27,11 +41,6 @@ doneTask = function() {
 }
 
 /*
-color = function() {
-  document.querySelector('#high').innerHTML = document.body.style.color("#high");
-  document.querySelector('#medium').innerHTML = document.body.style.color("#medium");
-  document.querySelector('#low').innerHTML = document.body.style.color("#low");
-}
 window.onload = function() {
   color();
 }*/
