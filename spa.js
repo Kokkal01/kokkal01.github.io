@@ -14,7 +14,7 @@ ex1 = function() {
   myLi.appendChild(myText);
   
   myInput.type = "checkbox";
-
+}
 
 doneTask = function() {
   if(this.checked) {
@@ -34,7 +34,7 @@ color = function() {
 window.onload = function() {
   color();
 }
-}
+
   /*
   myList = document.querySelector('#nodot');
   nodot = document.createElement("li");
