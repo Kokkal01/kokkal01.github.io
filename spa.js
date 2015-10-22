@@ -15,6 +15,11 @@ ex1 = function() {
   
   myInput.type = "checkbox";
   myInput.onclick = doneTask;
+  
+  
+  localSave("nodot");
+  restoreList("nodot", doneTask);
+  
 }
 
 
@@ -27,12 +32,10 @@ doneTask = function() {
   else {
     this.parentNode.classList.remove("done")
   }
-  /*localSave("nodot");
-  restoreList("nodot", doneTask);*/
 }
 
 window.onload = function() {
-  localSave("nodot");
-  restoreList("nodot",doneTask);
+  localSave();
+  restoreList();
 }
 
