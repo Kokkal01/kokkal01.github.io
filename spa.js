@@ -33,6 +33,6 @@ doneTask = function() {
 
 window.onload = function() {
   localSave("nodot");
-  restoreList(doneTask);
+  restoreList("nodot",doneTask);
 }
 
