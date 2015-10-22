@@ -14,10 +14,10 @@ ex1 = function() {
   myLi.appendChild(myText);
   
   myInput.type = "checkbox";
-  
+
   /*  
   myInput.onclick = doneTask;
-  
+
   localSave();
   restoreList();
   */
