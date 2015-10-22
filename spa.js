@@ -1,5 +1,5 @@
 ex1 = function() {
-  var myBox;
+  var myBox, myPriority, myUl;
   myBox = document.querySelector("#textbox");
   myPriority = document.querySelector("#priority");
   myUl = document.querySelector("#nodot");
