@@ -25,12 +25,12 @@ doneTask = function() {
   }
 }
 
-
+/*
 color = function() {
   document.querySelector('#high').innerHTML = document.body.style.color("#high");
   document.querySelector('#medium').innerHTML = document.body.style.color("#medium");
   document.querySelector('#low').innerHTML = document.body.style.color("#low");
-}
+}*/
 window.onload = function() {
   color();
 }
