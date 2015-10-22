@@ -17,7 +17,7 @@ ex1 = function() {
   myInput.onclick = doneTask;
 }
 
-localSave = function("nodot");
+localSave("nodot");
 restoreList = function(nodot, doneTask);
 
 
