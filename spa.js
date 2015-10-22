@@ -17,8 +17,8 @@ ex1 = function() {
   myInput.onclick = doneTask;
   
   
-  localSave("nodot");
-  restoreList("nodot", doneTask);
+  localSave();
+  restoreList();
   
 }
 
@@ -26,7 +26,7 @@ ex1 = function() {
 
 
 doneTask = function() {
-  if(!this.checked) {
+  if(this.checked) {
     this.parentNode.classList.add("done")
   }
   else {
@@ -35,7 +35,7 @@ doneTask = function() {
 }
 
 window.onload = function() {
-  localSave();
-  restoreList();
+  localSave("nodot");
+  restoreList("nodot", doneTask);
 }
 
