@@ -14,7 +14,7 @@ ex1 = function() {
   myLi.appendChild(myText);
   
   myInput.type = "checkbox";
-}
+
 
 doneTask = function() {
   if(this.checked) {
@@ -23,6 +23,7 @@ doneTask = function() {
   else {
     this.parentNode.classList.remove("done")
   }
+}
 }
 /*
 color = function() {
