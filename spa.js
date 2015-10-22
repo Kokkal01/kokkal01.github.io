@@ -27,12 +27,12 @@ doneTask = function() {
   else {
     this.parentNode.classList.remove("done")
   }
-  localSave("nodot");
-  restoreList("nodot", doneTask);
+  /*localSave("nodot");
+  restoreList("nodot", doneTask);*/
 }
 
 window.onload = function() {
-  localSave();
-  restoreList();
+  localSave("nodot");
+  restoreList(doneTask);
 }
 
