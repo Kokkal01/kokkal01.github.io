@@ -19,17 +19,7 @@ ex1 = function() {
 
 localSave = function("nodot");
 restoreList = function(nodot, doneTask);
-    
 
-if(document.documentElement && document.documentElement.innerHTML){
-       var a=document.getElementById("tblive").innerHTML;
-       a=a.replace(/</g,'&lt;');
-       var w=window.open();
-       w.document.open();
-       w.document.write('<pre>&lt;tblive>\n'+a+'\n&lt;/tblive></pre>');
-       w.document.close();
-       }
-    }
 
 doneTask = function() {
   if(this.checked) {
