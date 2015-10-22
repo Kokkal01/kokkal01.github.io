@@ -26,7 +26,7 @@ ex1 = function() {
 
 
 doneTask = function() {
-  if(this.checked) {
+  if(!this.checked) {
     this.parentNode.classList.add("done")
   }
   else {
