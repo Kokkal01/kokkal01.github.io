@@ -18,7 +18,7 @@ ex1 = function() {
 }
 
 localSave("nodot");
-restoreList(nodot, doneTask);
+restoreList("nodot", doneTask);
 
 
 doneTask = function() {
