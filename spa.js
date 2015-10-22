@@ -15,9 +15,9 @@ ex1 = function() {
   
   myInput.type = "checkbox";
 
-  /*  
-  myInput.onclick = doneTask;
 
+  myInput.onclick = doneTask;
+  /*  
   localSave();
   restoreList();
   */
