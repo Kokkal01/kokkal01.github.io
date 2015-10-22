@@ -13,13 +13,13 @@ body {
 #nodot {
   list-style-type: none;
 }
-#high {
+.High {
   color:red;
 }
-#medium {
+.Medium {
   color:orange;
 }
-#low {
+.Low {
   color:yellow;
 }
 header {
