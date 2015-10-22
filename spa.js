@@ -14,7 +14,7 @@ ex1 = function() {
   myLi.appendChild(myText);
   
   myInput.type = "checkbox";
-  myInput.onclick = doneTask;
+  
   
   
   localSave();
@@ -32,6 +32,7 @@ doneTask = function() {
   else {
     this.parentNode.classList.remove("done")
   }
+  myInput.onclick = doneTask;
 }
 
 window.onload = function() {
