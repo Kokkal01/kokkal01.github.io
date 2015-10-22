@@ -14,7 +14,8 @@ ex1 = function() {
   myLi.appendChild(myText);
   
   myInput.type = "checkbox";
-  
+}
+
 doneTask = function() {
   if(this.checked) {
     this.parentNode.classList.add("done")
@@ -23,7 +24,15 @@ doneTask = function() {
     this.parentNode.classList.remove("done")
   }
 }
-  
+
+color = function() {
+  document.querySelector('#high').innerHTML = document.body.style.color("#high");
+  document.querySelector('#medium').innerHTML = document.body.style.color("#medium");
+  document.querySelector('#low').innerHTML = document.body.style.color("#low");
+}
+window.onload = function() {
+  color();
+}
   /*
   myList = document.querySelector('#nodot');
   nodot = document.createElement("li");
