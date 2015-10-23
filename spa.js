@@ -18,8 +18,8 @@ ex1 = function() {
 
   myInput.onclick = doneTask;
 
-  document = localSave("nodot");
-  document = restoreList("nodot",doneTask);
+  myUl.localSave("nodot");
+  myUl.restoreList("nodot",doneTask);
 
 }
 
