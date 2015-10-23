@@ -36,7 +36,7 @@ doneTask = function() {
 
 
 
-ex1.onload = function() {
+window.onload = function() {
   restoreList("nodot",doneTask);
 }
 
