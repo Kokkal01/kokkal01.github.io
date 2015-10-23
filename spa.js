@@ -20,7 +20,7 @@ ex1 = function() {
 }
 
 
-
+localSave("nodot");
 
 doneTask = function() {
   if(this.checked) {
@@ -28,11 +28,11 @@ doneTask = function() {
   }
   else {
     this.parentNode.classList.remove("done")
-    localSave("nodot");
+    this.localSave("nodot");
   }
 }
 
-localSave("nodot");
+
 
 ex1.onload = function() {
   restoreList("nodot",doneTask);
