@@ -36,6 +36,6 @@ ex1.onload = function() {
   localSave(A);
   restoreList(B);
 }
-A = localSave("myUl");
+A = localSave("#nodot");
 B = restoreList("#nodot",doneTask);
 
