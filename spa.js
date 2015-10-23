@@ -17,10 +17,10 @@ ex1 = function() {
 
 
   myInput.onclick = doneTask;
-  /*  
-  localSave();
-  restoreList();
-  */
+
+  localSave("nodot");
+  restoreList("nodot", doneTask);
+
 }
 
 
@@ -37,7 +37,7 @@ doneTask = function() {
 }
 
 window.onload = function() {
-  localSave("nodot");
-  restoreList("nodot", doneTask);
+  localSave();
+  restoreList();
 }
 
