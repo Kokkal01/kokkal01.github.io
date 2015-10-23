@@ -17,10 +17,12 @@ ex1 = function() {
 
 
   myInput.onclick = doneTask;
+  
+  localSave("nodot");
 }
 
 
-localSave("nodot");
+
 
 doneTask = function() {
   if(this.checked) {
@@ -28,8 +30,8 @@ doneTask = function() {
   }
   else {
     this.parentNode.classList.remove("done")
-    this.localSave("nodot");
   }
+  localSave("nodot");
 }
 
 
