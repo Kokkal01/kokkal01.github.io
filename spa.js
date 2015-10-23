@@ -28,14 +28,15 @@ doneTask = function() {
   }
   else {
     this.parentNode.classList.remove("done")
+    localSave("nodot");
   }
-
 }
+
+localSave("nodot");
 
 ex1.onload = function() {
-  localSave(A);
-  restoreList(B);
+  restoreList("nodot",doneTask);
 }
-A = localSave("#nodot");
-B = restoreList("#nodot",doneTask);
+
+
 
